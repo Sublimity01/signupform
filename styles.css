@@ -13,6 +13,7 @@
 
 body {
   background-image: url('5108356.jpg');
+  font-family: sans-serif;
 }
 
 .flex-container {
@@ -45,15 +46,29 @@ div.right {
   margin-left: 20px;
 } */
 
-div.top {
+div.top, div.bottom {
   flex: 2 1 auto;
   background-color: rgb(240, 240, 240);
+  display: flex;
+  align-items: center;
+}
+
+p {
+  padding: 0 40px;
+}
+
+p.line2 {
+  padding-top: 20px;
 }
 
 div.middle {
   flex: 3 1 auto;
 }
 
-div.bottom {
-  flex: 2 1 auto;
+div.title {
+  font-size: 1.5em;
+}
+
+.spider {
+  font: 1.2em "SpiderBlack", sans-serif;
 }
